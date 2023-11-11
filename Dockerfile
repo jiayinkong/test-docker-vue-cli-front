@@ -1,4 +1,4 @@
-FROM nginx
+FROM harbor.miaohuanba.com/infra/nginx:stable-alpine
 LABEL name="test-docker-vue-cli-front"
 LABEL version="1.0"
 COPY ./dist/ /usr/share/nginx/html/
