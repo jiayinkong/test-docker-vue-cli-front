@@ -20,7 +20,7 @@ export default {
   },
   mounted () {
     console.log('mounted')
-    axios.get('http://localhost:3000/api/users')
+    axios.get('http://8.134.220.122:3000/api/users')
       .then(({ data }) => {
         this.users = data
 
